@@ -328,7 +328,7 @@ public class _GrammarLexer implements FlexLexer {
   /**
    * Reports an error that occurred while scanning.
    *
-   * In a wellformed scanner (no or only correct usage of
+   * In a well-formed scanner (no or only correct usage of
    * yypushback(int) and a match-all fallback rule) this method
    * will only be called with things that "Can't Possibly Happen".
    * If this method is called, something is seriously wrong
