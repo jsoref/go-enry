@@ -11,7 +11,7 @@ var LanguageByAliasMap = map[string]string{
 }
 
 // LanguageByAlias looks up the language name by it's alias or name.
-// It mirrors the logic of github linguist and is needed e.g for heuristcs.yml
+// It mirrors the logic of github linguist and is needed e.g for heuristics.yml
 // that mixes names and aliases in a language field (see XPM example).
 func LanguageByAlias(langOrAlias string) (lang string, ok bool) {
 	k := convertToAliasKey(langOrAlias)
